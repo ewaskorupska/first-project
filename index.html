@@ -3,39 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>First project</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
 </head>
 <body>
-<div class="row">
-    <div class="col-xs-12 col-sm-9">
-        <h2>Long text</h2>
-        <b class="visible-xs">You are on mobile, we dected it</b>
-        <b class="hidden-xs">You are on device with width greater then 768</b>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra eu lacus ac
-            gravida. Praesent et consectetur dolor. Nam sit amet luctus nisi. Aliquam varius sapien facilisis, convallis
-            nisi sed, sodales justo. Fusce hendrerit turpis mollis libero iaculis malesuada. In vulputate id odio
-            malesuada
-            varius. Vestibulum imperdiet, lectus a accumsan lobortis, mi sem tempus massa, sit amet pharetra erat tellus
-            vitae erat. Nam non justo arcu. Quisque vestibulum pulvinar viverra. Quisque euismod posuere ante, id
-            vestibulum
-            risus suscipit sit amet. Cras pellentesque semper elementum. Nunc in consectetur justo. Nam nec lectus urna.
-            Integer finibus ut augue sit amet tincidunt.</p>
 
-        <p>Cras vitae lectus in massa tempor dapibus a in nisl. Maecenas sit amet arcu ante. Nulla facilisi. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Curabitur a orci mollis, vestibulum nisi id, porttitor
-            eros.
-            Suspendisse ornare velit auctor sapien consequat, at convallis nunc congue. Morbi tincidunt nisi ac ligula
-            rutrum consequat sed mollis ipsum. Curabitur lobortis tempor risus, sed eleifend augue facilisis eget.
-            Vestibulum euismod venenatis hendrerit.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8">
+            <h1>Main title</h1>
+            <h2>Long text</h2>
+            <b class="visible-xs">You are on mobile, we dected it</b>
+            <b class="hidden-xs">You are on device with width greater then 768</b>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra eu lacus ac
+                gravida. Praesent et consectetur dolor. Nam sit amet luctus nisi. Aliquam varius sapien facilisis,
+                convallis
+                nisi sed, sodales justo. Fusce hendrerit turpis mollis libero iaculis malesuada. In vulputate id odio
+                malesuada
+                varius. Vestibulum imperdiet, lectus a accumsan lobortis, mi sem tempus massa, sit amet pharetra erat
+                tellus
+                vitae erat. Nam non justo arcu. Quisque vestibulum pulvinar viverra. Quisque euismod posuere ante, id
+                vestibulum
+                risus suscipit sit amet. Cras pellentesque semper elementum. Nunc in consectetur justo. Nam nec lectus
+                urna.
+                Integer finibus ut augue sit amet tincidunt.</p>
+            <h3>Third level</h3>
+            <p>Cras vitae lectus in massa tempor dapibus a in nisl. Maecenas sit amet arcu ante. Nulla facilisi.
+                Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Curabitur a orci mollis, vestibulum nisi id, porttitor
+                eros.
+                Suspendisse ornare velit auctor sapien consequat, at convallis nunc congue. Morbi tincidunt nisi ac
+                ligula
+                rutrum consequat sed mollis ipsum. Curabitur lobortis tempor risus, sed eleifend augue facilisis eget.
+                Vestibulum euismod venenatis hendrerit.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <h2>Short text</h2>
+            <p>Quisque euismod posuere ante, id vestibulum risus suscipit sit amet. Cras
+                pellentesque semper elementum. Nunc in consectetur justo. Nam nec lectus urna. Integer finibus ut augue
+                sit
+                amet tincidunt. Cras vitae lectus in massa tempor dapibus a in nisl. Maecenas sit amet arcu ante.</p>
+            <button class="btn btn-info">Zarejestruj</button>
+        </div>
     </div>
-    <div class="col-xs-12 col-sm-3">
-        <h2>Short text</h2>
-        Quisque euismod posuere ante, id vestibulum risus suscipit sit amet. Cras
-        pellentesque semper elementum. Nunc in consectetur justo. Nam nec lectus urna. Integer finibus ut augue sit amet
-        tincidunt. Cras vitae lectus in massa tempor dapibus a in nisl. Maecenas sit amet arcu ante.
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Rok urodzenia</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Anna</td>
+                    <td>Nowak</td>
+                    <td>1965</td>
+                </tr>
+                <tr>
+                    <td>Jan</td>
+                    <td>Kowalski</td>
+                    <td>1965</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
     </div>
 </div>
 
